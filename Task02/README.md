@@ -17,7 +17,7 @@
 
 Установить composer, если он не установлен;
 Перейти в каталог, в который вы будете клонировать проект;
-Выполнить команду composer require ortemx/GuessNumber;
+Выполнить команду composer require Keyjay77/GuessNumber;
 Перейти в каталог vendor/bin;
 Запустить Командную строку и ввести "php guess-number.php".
-Ссылки
+Ссылки: 
