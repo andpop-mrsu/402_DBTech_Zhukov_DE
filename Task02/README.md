@@ -20,4 +20,4 @@
 Выполнить команду composer require Keyjay77/GuessNumber;
 Перейти в каталог vendor/bin;
 Запустить Командную строку и ввести "php guess-number.php".
-Ссылки: 
+Ссылки: https://packagist.org/packages/KeyJay77/guess-number
