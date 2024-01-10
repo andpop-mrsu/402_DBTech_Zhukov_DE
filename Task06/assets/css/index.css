@@ -1,0 +1,45 @@
+/* index.css */
+
+/* Стили для блока "Угадай число" */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Стили для основного контейнера */
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Стили для кнопок и ввода числа */
+  input[type="button"],
+  input[type="number"] {
+    margin: 5px;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Стили для блока с правилами */
+  .bottom {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  /* Скрытие блока с правилами при загрузке страницы */
+  #rules {
+    display: none;
+  }
+  
