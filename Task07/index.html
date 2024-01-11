@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>Guess Number</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="container">
+        <div class="content">
+            <div class="head">
+                <div class="title">Guess Number</div>
+            </div>
+            <div class="body">
+                <div id="greeting" class="greeting">
+                    <p>Enter your name</p>
+                    <form action="">
+						<div class="span-effect">
+                            <span class="span">Name:</span>	
+							<input class="input-text" type="text" id="name" name="name">
+							<input type="button" class="b1", id="nextInfo" value="Next">
+                            						
+						</div>
+
+                    </form>
+                </div>
+
+                <div class="span-effect" style="display: flex; flex-direction: column;" id="GameMenu">
+                    <button class="b1" id="newGame">New Game</button>
+                    <button class="b1" style="margin-top: 12px;" id="listAllGame">List of all games</button>
+                    <button class="b1" style="margin-top: 12px;" id="listWinGame">Win list</button>
+                    <button class="b1" style="margin-top: 12px;" id="listLostGame">Lose list</button>
+                </div>
+
+                <div class="information" id="information">
+                    <p id="info" class="info"></p>
+                    <button class="b1", id="nextShowGame">Next</button>
+                </div>
+
+                <div class="show-game" id="show-game">
+                    <form action="">
+						<div class="span-effect">
+							<span class="span">Number:</span>
+							<input type="number" class="input-text", id="getNumber" name="getNumber">	
+							<input type="button" class="b1", id="checkNumber" value="Send">							
+						</div>						
+                    </form>
+                </div>
+
+                <div class="message" id="message"></div>
+
+                <div class="list" id="list">
+                    <div class="textList" id="textList"></div>
+                    <br>
+                    <button onclick="document.getElementById('list').style.display = 'none'; document.getElementById('GameMenu').style.display = 'block'">Menu</button>
+                </div>
+
+                <div class="result" id="result">
+                    <p id="resultText"></p>
+                    <button class="b1", id="replayGame">Replay</button>
+                    <br>
+                    <button class="b1", id="goMenu">Menu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="src/Controller.js" type="module"></script>
+</body>
+</html>

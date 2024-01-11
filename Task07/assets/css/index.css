@@ -1,0 +1,149 @@
+:root {
+  --main-color: #ff7300;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+body {
+  background-color: var(--main-color);
+  padding: 0;
+  margin: 0;
+}
+
+.b1{
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  font-size: 1em;
+  background-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  margin-top: 70px;
+
+}
+
+.title{
+  color:rgb(0, 0, 0);
+  text-transform: uppercase;
+  border-left: 5px solid rgb(0, 0, 0);
+  padding: 0 30px 0 30px;
+
+}
+
+h3, label{
+  color:rgb(0, 0, 0);
+
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.show-game {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  position: relative;
+  padding: 50px 50px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid rgb(161, 161, 161);
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 0px 11px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 11px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 11px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+width: 850px;
+  margin: 0 auto;
+}
+
+.content .head {
+  margin: 5px auto;
+}
+
+.content .head .title {
+  font-size: 2rem;
+  font-family: Impact, serif;
+}
+
+.body {
+  margin: 5px auto 15px;
+}
+
+.greeting {
+  margin: 5px auto 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.span-effect {
+  position: relative;
+  width: 300px;
+}
+
+.span-effect:last-child {
+  margin-bottom: 0;
+}
+
+.span {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 1em;
+  transition: 0.6s;
+  font-family: sans-serif;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.input-text:focus ~ .span {
+  transform: translateX(-10px) translateY(-35px);
+  font-size: 0.7em;
+}
+
+.input-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 2px solid #000;
+  outline: none;
+  background: none;
+  padding: 10px 0;
+  border-radius: 10px;
+  font-size: 1.2em;
+  z-index: 100;
+}
+
+.GameMenu button {
+  margin: 3px auto;
+}
+
+table, th, tr, td{
+  border: 1px solid black;
+}
